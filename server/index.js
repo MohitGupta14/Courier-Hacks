@@ -1,9 +1,7 @@
 import express from "express";
 import bodyParser from "body-parser";
 import mongoose from "mongoose";
-import { CourierClient } from "@trycourier/courier";
 
-const courier = CourierClient({ authorizationToken: "pk_prod_AG6E2KHN3Z4FXTQCMBAPHGADR6ZB" });
 
 // import dotenv from 'dotenv';
 // dotenv.config();
