@@ -29,15 +29,21 @@ app.post("/", function (req, res) {
       "message": {
         "to": {
         
-          "email": req.body.body
+          "email": req.body.body,
+          "phone_number": "+919306135744"
         },
-        "content": {
-          "title": req.body.subject,
-          "body": req.body.content
+        "template": "XRPCVBF5Z4M666Q4776CWY9GT1FP",
+        // "content": {
+        //   "title": req.body.subject,
+        //   "body": req.body.content
+        // },
+        data:{
+          variables: req.body.subject,
+          body: req.body.content 
         },
         "routing":{
-          "method": "single",
-          "channels": ["email"]
+          "method": "all",
+          "channels": ["email","sms"]
         }
       }
     })
