@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=DynaPuff&family=Maven+Pro&family=Righteous&family=Silkscreen&family=Ubuntu:wght@300&display=swap');
+
+.myclass{
+    height: 65px;
+    background-color: white;
+    color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.15);
+    
+}
+
+.logo{
+    width: 4%;
+    height: 2.5%;
+}
+

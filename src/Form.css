@@ -1,0 +1,25 @@
+.marginclass{
+    margin-left: 500px;
+    margin-right: 500px;
+  }
+
+  .margintop{
+    margin-top: 40px;
+  }
+
+  .mycard{
+    height: 500px;
+    border-radius: 0px;
+   
+  }
+  
+  .class{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .marginbottom{
+    margin-bottom: 0px;
+  }
