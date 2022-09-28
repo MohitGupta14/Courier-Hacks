@@ -12,34 +12,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
    npm install
    ```
 
-2. Create a `.env` file for environment variables in your server.
+#Description
+This project is about the demonstration of usage of courier. We have incorporated the courier API and tried to give an easy and single page approach to sending emails with template to the desired person using courier API.
 
-   ```bash
-   touch .env
-   ```
-
-3. Start the server
-
-   You can start the server on its own with the command:
-
-   ```bash
-   npm run server
-   ```
-
-   Run the React application on its own with the command:
-
-   ```bash
-   npm start
-   ```
-
-   Run both applications together with the command:
-
-   ```bash
-   npm run dev
-   ```
-
-   The React application will run on port 3000 and the server port 3001.
-
-## React Twilio starter
-
-The [twilio branch](https://github.com/philnash/react-express-starter/tree/twilio) is a similar setup but also provides endpoints with basic [Access Tokens](https://www.twilio.com/docs/iam/access-tokens) for [Twilio Programmable Chat](https://www.twilio.com/docs/chat) and [Twilio Programmable Video](https://www.twilio.com/docs/video). You can use the project as a base for building React chat or video applications.
+#Technologies
+Frontend- React framework was used to develop the frontend.
+Backend- Express Server along with node JS to send request for API calls.
