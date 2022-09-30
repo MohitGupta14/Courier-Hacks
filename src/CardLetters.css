@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Catamaran:wght@100&family=Caveat&family=Cormorant+Garamond:ital,wght@1,700&family=Courgette&family=DynaPuff&family=Kaushan+Script&family=Maven+Pro&family=Philosopher:wght@700&family=Playfair+Display+SC&family=Righteous&family=Rubik&family=Silkscreen&family=Ubuntu:wght@300&display=swap');
+
+.cardclass1{
+    border:none;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 23rem;
+    box-shadow: 0 2px 4px 0 rgba(151, 151, 151, 0.5);
+    background-color: rgb(239, 239, 239);
+}

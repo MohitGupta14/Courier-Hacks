@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Catamaran:wght@100&family=Caveat&family=Cormorant+Garamond:wght@300&family=Courgette&family=DynaPuff&family=Kaushan+Script&family=Maven+Pro&family=Philosopher:wght@700&family=Playfair+Display+SC&family=Righteous&family=Rubik&family=Silkscreen&family=Ubuntu:wght@300&display=swap');
+
+.myclass{
+    height: 65px;
+    color: aliceblue;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    font-size: large;
+    z-index: 9999;
+    box-shadow: 0 2px 4px 0 rgba(151, 151, 151, 0.25);
+    background-image: linear-gradient(to left,#ffffff, #f8f8f7);
+
+}
+
+.logo{
+    width: 4%;
+    height: 20%;
+}
+
+.color{
+    color: rgb(50, 50, 50);
+
+}
+
+.text{
+    color: rgb(50, 50, 50);
+    /* font-family: 'Philosopher', sans-serif; */
+    font-family: 'Kaushan Script', cursive;
+    font-size: 37px;
+    /* margin-bottom: 10px; */
+}
+
+
+
+.marginleft{
+    margin-left: 53rem;
+}
+
+.gradient-text {
+    background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #4f013b, #c90808);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.loginbutton{
+   
+        border: 0;
+        display: inline-block;
+        
+        padding-top: 7px;
+        font-size: 1em;
+        width: 90px;
+        margin: 20px;
+        height: 40px;
+        color: #ffffff;
+        /* background-color: #61074e; */
+        background-image: linear-gradient(to left,#df394f,#61074e);
+        border-radius: 8px;
+        text-decoration: none;
+        transition: box-shadow 200ms ease-out;
+      }
+
+      /* .signupbutton{
+   
+        border: 0;
+        text-align: center;
+        display: inline-block;
+        
+        width: 120px;
+        margin: 20px;
+        height: 40px;
+        color: #ffffff;
+        background-color: #4f013b;
+        border-radius: 8px;
+        text-decoration: none;
+        transition: box-shadow 200ms ease-out;
+      } */
+      
+      .signupbutton{
+
+        font-size: 1em;
+        text-decoration: none;
+        width: 90px;
+        margin: 20px;
+        height: 40px;
+        color: #530840;
+        display: inline-block;
+        text-align: center;
+        
+        position: relative;
+        border: 1.5px solid #5c0446;
+        border-radius: 8px;
+      }
