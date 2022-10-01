@@ -59,7 +59,7 @@
         height: 40px;
         color: #ffffff;
         /* background-color: #61074e; */
-        background-image: linear-gradient(to left,#df394f,#61074e);
+        background-color: #980c1f;
         border-radius: 8px;
         text-decoration: none;
         transition: box-shadow 200ms ease-out;
@@ -88,11 +88,11 @@
         width: 90px;
         margin: 20px;
         height: 40px;
-        color: #530840;
+        color: #980c1f;;
         display: inline-block;
         text-align: center;
         
         position: relative;
-        border: 1.5px solid #5c0446;
+        border: 1.5px solid #980c1f;
         border-radius: 8px;
       }
