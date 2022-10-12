@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Catamaran:wght@100&family=Caveat&family=Cormorant+Garamond:wght@300&family=Courgette&family=DynaPuff&family=Kaushan+Script&family=Maven+Pro&family=Philosopher:wght@700&family=Playfair+Display+SC&family=Righteous&family=Rubik&family=Silkscreen&family=Ubuntu:wght@300&display=swap');
-
-.myclass{
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Armata&family=Catamaran:wght@100&family=Caveat&family=Cormorant+Garamond:ital,wght@1,700&family=Courgette&family=DynaPuff&family=Josefin+Sans&family=Kaushan+Script&family=Maven+Pro&family=Philosopher:wght@700&family=Playfair+Display+SC&family=Righteous&family=Rubik&family=Silkscreen&family=Ubuntu:wght@300&display=swap');.myclass{
     height: 65px;
     color: aliceblue;
     position: sticky;
@@ -26,8 +24,8 @@
 .text{
     color: rgb(50, 50, 50);
     /* font-family: 'Philosopher', sans-serif; */
-    font-family: 'Kaushan Script', cursive;
-    font-size: 37px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
     /* margin-bottom: 10px; */
 }
 
@@ -39,7 +37,7 @@
 
 .gradient-text {
     background-color: #f3ec78;
-    background-image: linear-gradient(45deg, #4f013b, #c90808);
+    background-image: linear-gradient(45deg, #0db701, #0a3860);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -59,7 +57,7 @@
         height: 40px;
         color: #ffffff;
         /* background-color: #61074e; */
-        background-color: #980c1f;
+        background-color: #0e9409;
         border-radius: 8px;
         text-decoration: none;
         transition: box-shadow 200ms ease-out;
@@ -88,11 +86,11 @@
         width: 90px;
         margin: 20px;
         height: 40px;
-        color: #980c1f;;
+        color: #227dd2;
         display: inline-block;
         text-align: center;
         
         position: relative;
-        border: 1.5px solid #980c1f;
+        border: 1.5px solid #227dd2;
         border-radius: 8px;
       }

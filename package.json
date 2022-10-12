@@ -4,9 +4,11 @@
   "type": "module",
   "private": true,
   "dependencies": {
+    "axios": "^0.27.2",
     "concurrently": "^7.4.0",
     "dotenv": "^16.0.2",
     "ejs": "^3.1.8",
+    "jspdf": "^2.5.1",
     "mongoose": "^6.6.2",
     "node-fetch": "^3.2.10",
     "react": "^16.13.0",

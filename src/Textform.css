@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Armata&family=Catamaran:wght@100&family=Caveat&family=Cormorant+Garamond:ital,wght@1,700&family=Courgette&family=DynaPuff&family=Josefin+Sans&family=Kaushan+Script&family=Maven+Pro&family=Philosopher:wght@700&family=Playfair+Display+SC&family=Righteous&family=Rubik&family=Silkscreen&family=Ubuntu:wght@300&display=swap');
+
+
+.mycontainer{
+    width: 44rem;
+    font-size: 25px;
+    
+}
+
+.mytext{
+    width: 42rem;
+    height: 53rem;
+    background-color: rgb(249, 249, 245);
+    border: none;
+    box-shadow: 0 2px 4px 0 rgba(151, 151, 151, 0.5);
+    margin-left: 3rem;
+    margin-top: 2rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 7%;
+}
+
+.mymargin{
+    margin-left:17%;
+}
+
+.headingclass{
+    margin-top: 4%;
+    margin-bottom: 4%;
+
+}

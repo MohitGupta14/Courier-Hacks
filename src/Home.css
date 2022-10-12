@@ -32,3 +32,18 @@
     margin-left: 30px;
     margin-right: 30px;
 }
+
+.mysize{
+    width: 200px;
+    
+}
+
+.a {
+    all: unset;
+}
+
+@media screen and (min-width: 480px) {
+    .container_mobile{
+        width: 100%;
+    }
+  }

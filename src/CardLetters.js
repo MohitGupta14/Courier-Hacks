@@ -4,19 +4,20 @@ import { Link } from 'react-router-dom'
 
 export const CardLetters = (props) => {
   return (
-    <>
+    <div>
     <div className="card cardclass1">
               <div className="card-body">
                 <h5 className="card-title">{props.title}</h5>
               
                 <img src={props.image} className="card-img-top sizeclass" />
-                {/* <Link to="#" className="btn btn-primary">
-                  Go somewhere
-                </Link> */}
+                
+                  
+                
               </div>
             </div>
+            
      
-    </>
+    </div>
   )
 }
 

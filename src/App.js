@@ -16,11 +16,14 @@ import { Form } from './Form';
 import Navbar from './Navbar';
 import { About } from './About';
 import { Home } from './Home';
+import { Resume } from './Resume';
 import {
   BrowserRouter,
   Routes as Switch,
   Route,
 } from "react-router-dom";
+import { Coverletter } from './Coverletter';
+import { Applicationletter } from './Applicationletter';
 
 class App extends Component {
   
@@ -35,6 +38,10 @@ class App extends Component {
       <Switch>
       <Route path="/" element= {<Home/>}></Route>
       <Route exact path="/about" element= {<Form/>}></Route>
+      <Route exact path="/coverletter" element= {<Coverletter/>}></Route>
+      <Route exact path="/resumeletter" element= {<Resume/>}></Route>
+      <Route exact path="/applicationletter" element= {<Applicationletter/>}></Route>
+
       </Switch>
       </div>
 
